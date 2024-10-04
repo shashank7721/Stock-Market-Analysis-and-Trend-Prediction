@@ -3,7 +3,7 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 
 
-ticker = 'GANECOS.NS'
+ticker = 'TATAMOTORS.NS'
 data = yf.download(ticker, start='2020-01-01', end='2024-06-06')
 
 
